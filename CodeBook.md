@@ -23,6 +23,7 @@ The variables for this data set are described below. Variables 3-32 are mean val
 Time series measures, normalized. Range: -1 to 1:
 
 Variables 3 to 8: Mean and standard deviation for body acceleration on the X, Y, and Z axes. Source columns: 1 to 6.
+
 3. bodyaccelmeanx
 4. bodyaccelmeany 
 5. bodyaccelmeanz
@@ -31,6 +32,7 @@ Variables 3 to 8: Mean and standard deviation for body acceleration on the X, Y,
 8. bodyaccelstdz
 
 Variables 9 to 14: Mean and standard deviation for gravity acceleration on the X, Y, and Z axes. Source columns: 41 to 46.
+
 9. gravityaccelmeanx
 10. gravityaccelmeany
 11. gravityaccelmeanz
@@ -39,6 +41,7 @@ Variables 9 to 14: Mean and standard deviation for gravity acceleration on the X
 14. gravityaccelstdz
 
 Variables 15 to 20: Mean and standard deviation for body Jerk on the X, Y, and Z axes. Source columns: 81 to 86.
+
 15. bodyacceljerkmeanx
 16. bodyacceljerkmeany
 17. bodyacceljerkmeanz
@@ -47,6 +50,7 @@ Variables 15 to 20: Mean and standard deviation for body Jerk on the X, Y, and Z
 20. bodyacceljerkstdz
 
 Variables 21 to 26: Mean and standard deviation for body angular movement (gyro) on the X, Y, and Z axes. Source columns: 121 to 126.
+
 21. bodygyromeanx
 22. bodygyromeany
 23. bodygyromeanz
@@ -55,6 +59,7 @@ Variables 21 to 26: Mean and standard deviation for body angular movement (gyro)
 26. bodygyrostdz
 
 Variables 27 to 32: Mean and standard deviation for body angular movement (gyro) Jerk on the X, Y, and Z axes. Source columns: 161 to 166.
+
 27. bodygyrojerkmeanx
 28. bodygyrojerkmeany
 29. bodygyrojerkmeanz
