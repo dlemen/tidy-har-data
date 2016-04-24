@@ -12,7 +12,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The processing script combines both the training and test data sets, and extracts just the mean and standard deviation (STD) measures. The mean of each of these measures is then calculated in a data table, grouped by the activity type (e.g., WALKING), and the subject (1-30) who performed the activity.
 
-The tidy data set is written to a comma-separated text file, called "har_mean_observations.csv".
+The tidy data set is written to a text file, called "har_mean_observations.txt".
 
 ## Code book
 The variables for this data set are described below. 
