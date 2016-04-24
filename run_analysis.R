@@ -5,7 +5,7 @@
 ## Configuration
 sourceUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 localFile <- "har.zip"
-tidyFile <- "har_mean_observations.csv"
+tidyFile <- "har_mean_observations.txt"
 
 ## Download and extract the data, or use localFile if it was previously downloaded.
 if(!file.exists(localFile)) {
@@ -88,6 +88,6 @@ df2 <- aggregate(df1[, 3:32], df1[,1:2], FUN=mean)
 df2 <- df2[order(df2$activity, df2$subject),]
 
 ## Write out the aggregated, tidy data set as a CSV file.
-write.csv(df2, tidyFile, row.names=FALSE)
+write.table(df2, tidyFile, row.names=FALSE)
 
 
